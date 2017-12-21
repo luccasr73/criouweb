@@ -1,0 +1,68 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.bg-transparent{
+  background-color:transparent;
+}
+.bg-grey{
+  background-color: #e8e8e8;
+}
+
+.navbarOverlap{
+position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.criacaoSites{
+  padding-top:20px;
+}
+.imgCriacaoSites{
+  max-height:315px;
+}
+.iconesCricaoSites{
+  width:5rem;
+}
+.textoIconesCricaoSites{
+  font-size:0.9rem;
+}
+.noPaddingLR{
+  padding-left:0;
+  padding-right:0;
+}
+.fullScreen{
+  height: 100vh;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(255,255,255,1);
+}
+.modalMenu{
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.modalMenuHeader{
+  border: none;
+}
+.lojasVirtuais{
+  padding-top:20px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+@media (max-width: 1200px) 
+{
+  .imgCriacaoSites{
+  max-height:380px;
+}
+}
+
+@media (min-width: 992px) 
+{
+  .fullWidthSlide{
+  height:100vh;
+    }
+}
