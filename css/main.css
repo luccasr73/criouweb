@@ -1,13 +1,27 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
+/*bg colors*/
 .bg-transparent{
   background-color:transparent;
 }
 .bg-grey{
   background-color: #e8e8e8;
 }
+/**/
 
+/*common class*/
+.noPaddingLR{
+  padding-left:0;
+  padding-right:0;
+}
+.fullScreen{
+  height: 100vh;
+}
+/**/
+
+/*navbar*/
 .navbarOverlap{
 position: absolute;
     top: 0px;
@@ -15,7 +29,16 @@ position: absolute;
     right: 0;
     z-index: 2;
 }
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(255,255,255,1);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/**/
 
+/*criação area*/
 .criacaoSites{
   padding-top:20px;
 }
@@ -28,17 +51,12 @@ position: absolute;
 .textoIconesCricaoSites{
   font-size:0.9rem;
 }
-.noPaddingLR{
-  padding-left:0;
-  padding-right:0;
+.cricaoMobile{
+  padding-top:10px;
 }
-.fullScreen{
-  height: 100vh;
-}
-.navbar-light .navbar-toggler {
-  color: rgba(0,0,0,.5);
-  border-color: rgba(255,255,255,1);
-}
+/**/
+
+/*modal menu*/
 .modalMenu{
   width: 100%;
     margin: 0;
@@ -48,11 +66,11 @@ position: absolute;
   border: none;
 }
 .lojasVirtuais{
-  padding-top:20px;
+  /*padding-top:20px;*/
 }
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+/**/
+
+/*media queries*/
 @media (max-width: 1200px) 
 {
   .imgCriacaoSites{
@@ -64,5 +82,13 @@ position: absolute;
 {
   .fullWidthSlide{
   height:100vh;
+    }
+}
+
+@media (max-width: 768px) 
+{
+  .cricaoMobile{
+  padding-top:10px;
+  background-color: #f8f9fa!important;
     }
 }
