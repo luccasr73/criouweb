@@ -20,7 +20,7 @@
       <button class="navbar-toggler ml-auto" type="button" data-toggle="modal" data-target="#modalMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      
       <div class="collapse navbar-collapse"  id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -86,57 +86,57 @@
       </div>
     </div>
     <div class="container-fluid noPaddingLR">
-     <div class="row no-gutters bg-primary fullScreen">
-     
-     </div>
+      <div class="row no-gutters bg-primary fullScreen">
+        
+      </div>
     </div>
     <div class="bg-grey lojasVirtuais">
-     <div class="container">
-     <div class="row">
-     <div class="col-12">
-     <h2 class="text-center">Lojas virtuais com + <span class="text-primary">lucro</span></h2>
-     </div>
-     </div>
-     <div class="row">
-     <div class="col-md-3">
-     <img src="assets/lateral_loja.png" class="img-fluid" alt="">
-     </div>
-     
-     </div>
-     </div> 
-     </div>
-    
-    
-     <div class="modal" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modalMenu" role="document">
-    <div class="modal-content">
-      <div class="modal-header modalMenuHeader">
-         <h5 class="modal-title">&lt;Criou web/&gt;</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-        </ul>
-      </div>
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Lojas virtuais com + <span class="text-primary">lucro</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/lateral_loja.png" class="img-fluid" alt="">
+          </div>
+          
+        </div>
+      </div> 
     </div>
-  </div>
-</div>
-     
+    
+    
+    <div class="modal" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modalMenu" role="document">
+        <div class="modal-content">
+          <div class="modal-header modalMenuHeader">
+            <h5 class="modal-title">&lt;Criou web/&gt;</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
@@ -147,8 +147,8 @@
         {
           var len = this.length;
           if (typeof fun != "function")
-            throw new TypeError();
-
+          throw new TypeError();
+          
           var res = new Array();
           var thisp = arguments[1];
           for (var i = 0; i < len; i++)
@@ -157,10 +157,10 @@
             {
               var val = this[i]; // in case fun mutates this
               if (fun.call(thisp, val, i, this))
-                res.push(val);
+              res.push(val);
             }
           }
-
+          
           return res;
         };
       }
@@ -168,5 +168,5 @@
     <script src="js/tokenizer.js"></script>
     <script src="js/parser.js"></script>
     <script src="js/vminpoly.js"></script>
-     </body>
-  </html>  
+  </body>
+</html>  
