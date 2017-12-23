@@ -9,6 +9,7 @@ body{
 .bg-grey{
   background-color: #e8e8e8;
 }
+
 /**/
 
 /*common class*/
@@ -80,6 +81,10 @@ body{
 /*footer*/
 .socialIcons{
   font-size:3rem;
+}
+.footer{
+  padding-top:20px;
+  font-size:0.8rem;
 }
 /**/
 
