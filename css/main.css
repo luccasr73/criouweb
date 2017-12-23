@@ -56,6 +56,34 @@ body{
 }
 /**/
 
+/*loja virtual*/
+.lojasVirtuais{
+  padding-top:20px;
+}
+
+/*portfolio*/
+.portfolio{
+  padding-top:20px;
+}
+/**/
+
+/*contato*/
+.contato{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.contatoMensagem{
+  padding-top:20px;
+  padding-bottom:10px;
+}
+/**/
+
+/*footer*/
+.socialIcons{
+  font-size:3rem;
+}
+/**/
+
 /*modal menu*/
 .modalMenu{
   width: 100%;
@@ -64,9 +92,6 @@ body{
 }
 .modalMenuHeader{
   border: none;
-}
-.lojasVirtuais{
-  /*padding-top:20px;*/
 }
 /**/
 
