@@ -93,9 +93,15 @@ body{
   width: 100%;
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 .modalMenuHeader{
   border: none;
+}
+.modalMenuContent{
+  border:none;
+  border-radius:0;
+  background-image: url('../assets/banner_criouweb.png');
 }
 /**/
 
